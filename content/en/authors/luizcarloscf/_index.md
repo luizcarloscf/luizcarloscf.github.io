@@ -31,4 +31,4 @@ I'm more involved in cloud computing projects, studying tools like Kubernetes, D
 
 ## About this website
 
-I try to log down my learnings and thoughts about what I study and the projects I do (and also practice my writing in English).
+I try to log down my learnings about containers, Kubernetes, Docker, programming, etc (and also practice writing in English).
