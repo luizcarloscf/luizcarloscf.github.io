@@ -9,7 +9,7 @@ theme: eureka
 
 paginate: 3
 copyright: >
-  &copy; 2022 <a href="https://www.luizcarloscf.github.io">Luiz Carlos Cosmi Filho</a>
+  &copy; 2022 <a href="https://luizcarloscf.github.io">Luiz Carlos Cosmi Filho</a>
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
