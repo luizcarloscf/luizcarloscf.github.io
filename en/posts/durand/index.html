@@ -1,0 +1,101 @@
+<!doctype html><html lang=en dir=ltr><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Durand-Kerner method | luizcarloscf</title><meta name=generator content="Hugo Eureka 0.9.3"><link rel=stylesheet href=https://luizcarloscf.github.io/css/eureka.min.9cec6350e37e534b0338fa9a085bf06855de3b0f2dcf857e792e5e97b07ea905d4d5513db554cbc26a9c3da622bae92d.css><script defer src=https://luizcarloscf.github.io/js/eureka.min.fa9a6bf6d7a50bb635b4cca7d2ba5cf3dfb095ae3798773f1328f7950028b48c17d06276594e1b5f244a25a6c969a705.js></script>
+<link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" as=style onload='this.onload=null,this.rel="stylesheet"'><link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/base16/solarized-light.min.css media=print onload='this.media="all",this.onload=null' crossorigin><script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js crossorigin></script>
+<script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/languages/dart.min.js crossorigin></script>
+<script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/languages/python.min.js crossorigin></script>
+<script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/languages/c.min.js crossorigin></script>
+<script defer src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/languages/docker.min.js crossorigin></script>
+<link rel=stylesheet href=https://luizcarloscf.github.io/css/highlightjs.min.2958991528e43eb6fc9b8c4f2b8e052f79c4010718e1d1e888a777620e9ee63021c2c57ec7417a3108019bb8c41943e6.css media=print onload='this.media="all",this.onload=null'><script defer type=text/javascript src=https://luizcarloscf.github.io/js/fontawesome.min.d0138ff9423da298f3e6966d60e6ab38c9b220e1958f2204f01f1e83ee6435e32c94996ffce1c1a67116a3ad01eca7e3.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css integrity=sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ media=print onload='this.media="all",this.onload=null' crossorigin><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js integrity=sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY crossorigin></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin></script>
+<script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script><script defer src=https://cdn.jsdelivr.net/npm/mermaid@8.14.0/dist/mermaid.min.js integrity=sha384-atOyb0FxAgN9LyAc6PEf9BjgwLISyansgdH8/VXQH8p2o5vfrRgmGIJ2Sg22L0A0 crossorigin></script>
+<link rel=icon type=image/png sizes=32x32 href=https://luizcarloscf.github.io/images/avatar_hua47acc888aa8a5faef26fe17c78d9263_34154_32x32_fill_q75_box_center.jpeg><link rel=apple-touch-icon sizes=180x180 href=https://luizcarloscf.github.io/images/avatar_hua47acc888aa8a5faef26fe17c78d9263_34154_180x180_fill_q75_box_center.jpeg><meta name=description content="Root-finding algorithm for solving polynomial equations."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://luizcarloscf.github.io/en/posts/"},{"@type":"ListItem","position":2,"name":"Durand-Kerner method","item":"https://luizcarloscf.github.io/en/posts/durand/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://luizcarloscf.github.io/en/posts/durand/"},"headline":"Durand-Kerner method | luizcarloscf","datePublished":"2022-09-02T18:57:51-03:00","dateModified":"2022-09-02T18:57:51-03:00","wordCount":802,"author":{"@type":"Person","name":["luizcarloscf"]},"publisher":{"@type":"Person","name":"Luiz Carlos Cosmi Filho","logo":{"@type":"ImageObject","url":"https://luizcarloscf.github.io/images/avatar.jpeg"}},"description":"Root-finding algorithm for solving polynomial equations."}</script><meta property="og:title" content="Durand-Kerner method | luizcarloscf"><meta property="og:type" content="article"><meta property="og:image" content="https://luizcarloscf.github.io/images/avatar.jpeg"><meta property="og:url" content="https://luizcarloscf.github.io/en/posts/durand/"><meta property="og:description" content="Root-finding algorithm for solving polynomial equations."><meta property="og:locale" content="en"><meta property="og:locale:alternate" content="pt"><meta property="og:site_name" content="luizcarloscf"><meta property="article:published_time" content="2022-09-02T18:57:51-03:00"><meta property="article:modified_time" content="2022-09-02T18:57:51-03:00"><meta property="article:section" content="posts"><meta property="article:tag" content="python"><meta property="article:tag" content="algorithm"><body class="flex min-h-screen flex-col"><header class="min-h-16 pl-scrollbar bg-secondary-bg fixed z-50 flex w-full items-center shadow-sm"><div class="mx-auto w-full max-w-screen-xl"><script>let storageColorScheme=localStorage.getItem("lightDarkMode");((storageColorScheme=="Auto"||storageColorScheme==null)&&window.matchMedia("(prefers-color-scheme: dark)").matches||storageColorScheme=="Dark")&&document.getElementsByTagName("html")[0].classList.add("dark")</script><nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0"><a href=/en/ class="me-6 text-primary-text text-xl font-bold">luizcarloscf</a>
+<button id=navbar-btn class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+<i class="fas fa-bars"></i></button><div id=target class="hidden block md:flex md:grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20"><div class="md:flex md:h-16 text-sm md:grow pb-4 md:pb-0 border-b md:border-b-0"><a href=/en/posts/ class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 selected-menu-item me-4">Posts</a>
+<a href=/en/tags/ class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">Tags</a>
+<a href=/en/categories/ class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">Categories</a>
+<a href=/en/series/ class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">Series</a>
+<a href=/en/projects/ class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">Projects</a>
+<a href=/en/authors/luizcarloscf class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2 border-transparent me-4">About</a></div><div class=flex><div class="relative pt-4 md:pt-0"><div class="cursor-pointer hover:text-eureka" id=lightDarkMode><i class="fas fa-adjust"></i></div><div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id=is-open></div><div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40" id=lightDarkOptions><span class="px-4 py-1 hover:text-eureka" name=Light>Light</span>
+<span class="px-4 py-1 hover:text-eureka" name=Dark>Dark</span>
+<span class="px-4 py-1 hover:text-eureka" name=Auto>Auto</span></div></div><div class="relative pt-4 ps-4 md:pt-0"><div class="cursor-pointer hover:text-eureka" id=languageMode><i class="fas fa-globe"></i>
+<span class=ps-1>English</span></div><div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id=is-open-lang></div><div class="absolute flex flex-col start-0 md:start-auto end-auto md:end-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40" id=languageOptions><a class="px-4 py-1 hover:text-eureka" href=https://luizcarloscf.github.io/en/posts/durand/>English</a>
+<a class="px-4 py-1 hover:text-eureka" href=https://luizcarloscf.github.io/pt/posts/durand/>Português</a></div></div></div></div><div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id=is-open-mobile></div></nav><script>let element=document.getElementById("lightDarkMode");storageColorScheme==null||storageColorScheme=="Auto"?document.addEventListener("DOMContentLoaded",()=>{window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",switchDarkMode)}):storageColorScheme=="Light"?(element.firstElementChild.classList.remove("fa-adjust"),element.firstElementChild.setAttribute("data-icon","sun"),element.firstElementChild.classList.add("fa-sun")):storageColorScheme=="Dark"&&(element.firstElementChild.classList.remove("fa-adjust"),element.firstElementChild.setAttribute("data-icon","moon"),element.firstElementChild.classList.add("fa-moon")),document.addEventListener("DOMContentLoaded",()=>{getcolorscheme(),switchBurger(),switchLanguage()})</script></div></header><main class="grow pt-16"><div class=pl-scrollbar><div class="mx-auto w-full max-w-screen-xl lg:px-4 xl:px-8"><div class="grid grid-cols-2 gap-4 lg:grid-cols-8 lg:pt-12"><div class="bg-secondary-bg col-span-2 rounded px-6 py-8 lg:col-span-6"><article class=prose><h1 class=mb-4>Durand-Kerner method</h1><div class="text-tertiary-text not-prose mt-2 flex flex-row flex-wrap items-center"><div class="me-6 my-2"><i class="fas fa-calendar me-1"></i>
+<span>2022-09-02</span></div><div class="me-6 my-2"><i class="fas fa-clock me-1"></i>
+<span>4 min read</span></div><div class="me-6 my-2"><i class="fas fa-folder me-1"></i>
+<a href=https://luizcarloscf.github.io/en/categories/numerical-methods/ class=hover:text-eureka>numerical-methods</a></div></div><p>Is this tutorial, we are going to explore a method that can be used to solve numerically equations, even with complex solutions. It was originally discovered by Karl Weierstrass in 1891, rediscovered independently by Durand in 1960 and Kerner in 1966.</p><h2 id=the-algorithm>The algorithm</h2><p>Given a polynomial $p(x)$,</p><p>$$p(x) = ax^4 + bx^3 + cx^2 + dx + e$$</p><p>The values $a$, $b$, $c$, $d$ and $e$ are the polynomial coefficients. When solving a polynomial, you know these coefficients and can compute $p(x)$ for all $x$. You can also rewrite it in terms of its roots,</p><p>$$p(x) = (x-P)(x-Q)(x-R)(x-S) $$</p><p>However, at this point you don&rsquo;t know the values $P$, $Q$, $R$ and $S$ (roots). The algorithm proposes to isolate the equation above in terms of each root,</p><p>$$ P = x - \frac{p(x)}{(x-Q)(x-R)(x-S)} $$
+$$ Q = x - \frac{p(x)}{(x-P)(x-R)(x-S)} $$
+$$ R = x - \frac{p(x)}{(x-P)(x-Q)(x-S)} $$
+$$ S = x - \frac{p(x)}{(x-P)(x-Q)(x-R)} $$</p><p>If used a fixed point iteration, you can rewrite it as,</p><p>$$ P_{n+1} = x - \frac{p(x)}{(x-Q_n)(x-R_n)(x-S_n)} $$
+$$ Q_{n+1} = x - \frac{p(x)}{(x-P_n)(x-R_n)(x-S_n)} $$
+$$ R_{n+1} = x - \frac{p(x)}{(x-P_n)(x-Q_n)(x-S_n)} $$
+$$ S_{n+1} = x - \frac{p(x)}{(x-P_n)(x-Q_n)(x-R_n)} $$</p><p>Each $x$ terms is independent from each other in each of the equations above. So, you can choose different $x$&rsquo;s for each equation,</p><p>$$ P_{n+1} = x_p - \frac{p(x_p)}{(x_p-Q_n)(x_p-R_n)(x_p-S_n)} $$
+$$ Q_{n+1} = x_q - \frac{p(x_q)}{(x_q-P_n)(x_q-R_n)(x_q-S_n)} $$
+$$ R_{n+1} = x_r - \frac{p(x_r)}{(x_r-P_n)(x_r-Q_n)(x_r-S_n)} $$
+$$ S_{n+1} = x_s - \frac{p(x_s)}{(x_s-P_n)(x_s-Q_n)(x_s-R_n)} $$</p><p>After each iteration, e.g. $P_{n+1}$ is close to the solution. So, we can write $x_p$ as its previous iteration. Which leave us with,</p><p>$$ P_{n+1} = P_n - \frac{p(P_n)}{(P_n-Q_n)(P_n-R_n)(P_n-S_n)} $$
+$$ Q_{n+1} = Q_n - \frac{p(Q_n)}{(Q_n-P_n)(Q_n-R_n)(Q_n-S_n)} $$
+$$ R_{n+1} = R_n - \frac{p(R_n)}{(R_n-P_n)(R_n-Q_n)(R_n-S_n)} $$
+$$ S_{n+1} = S_n - \frac{p(S_n)}{(S_n-P_n)(S_n-Q_n)(S_n-R_n)} $$</p><p>The final problem here is: how to set the start point to $P_n$, $Q_n$, $R_n$ and $S_n$ that converges to a solution? In the following implementation, we are going to explore a solution that implements the algorithm described with a strategy to select good start points.</p><h2 id=python-implementation>Python implementation</h2><p>The following python implementation can be downloaded with a Jupyter Notebook <a href=/content/posts/durand/durand_kerner.ipynb>here</a>.</p><h3 id=start-point-selection>Start point selection</h3><p>To select good start points, we will distribute evenly spaced points in a unit circle around the complex plane origin. In some approaches, some authors discuss methods to estimate the circle radius. Here, we will simplify and use only a circle of radius always equal to 1.</p><pre><code class=language-python>def distribute_points(degree: np.ndarray) -&gt; np.ndarray:
+  &quot;&quot;&quot;Distribute initial roots in an unit circle in the complex plane.
+  
+  Parameters
+  ----------
+  degree: nd.ndarray
+    Polynomial degree.
+
+  Returns
+  -------
+  result: nd.ndarray
+    Complex array with initial roots distributed.
+  &quot;&quot;&quot;
+  roots = np.zeros(degree, dtype=complex)
+  img = complex(0, 1)
+  rad = 1
+  phi = 2.0 * np.pi / degree
+  for k in range(degree):
+    roots[k] = complex(rad, 0) * np.exp(img*complex(phi*k, 0.0))
+  return roots
+</code></pre><p>To understand how we distribute the points in a complex plane, it is necessary to remember the definition of complex number in the Polar form:</p><p>$$z = re^{i \varphi}$$</p><p align=center><img src=https://upload.wikimedia.org/wikipedia/commons/7/7a/Complex_number_illustration_modarg.svg><figcaption align=center>Figure 1 - Complex number illustration.</figcaption></p><p>Knowing the degree of the polynomial, we know how many roots there are. Then, we compute the step size we should take between $0$ and $2\pi$ to evenly space the initial roots.</p><h3 id=fixed-point-iteration>Fixed point iteration</h3><p>The implementation of Durand-Kerner method using fixed point iteration can be seen below. The following steps can be highlighted:</p><ul><li>Initially, the roots are distributed in a unit circle around the complex plane origin;</li><li>A new value is computed for each root using the initial guess;</li><li>Then, the roots assume the value of the previous step and the process repeats.</li></ul><pre><code class=language-python>def durand_kerner(func,
+                  degree: int,
+                  iterations: int = 10,
+                  epsilon: float = 1.0e-16) -&gt; np.ndarray:
+  &quot;&quot;&quot;Durand-kerner root finding algorithm.
+
+  Parameters
+  ----------
+  func:
+    Callback function to evaluate polynomial.
+
+  degree: int 
+    Polynomial degree.
+
+  iterations: int
+    Maximmum number of iterations.
+
+  epsilon: float
+    Limit to accept convergence.
+
+  Returns
+  -------
+  np.ndarray
+    Founded roots.
+  &quot;&quot;&quot;
+  roots = distribute_points(degree=degree)
+  n = degree
+  new_roots = np.zeros(n, dtype=complex)
+  for iterations in range(iterations):
+    for k in range(n):
+      denominator = complex(1,0)
+      for i in range(n):
+        if i != k:
+          denominator *= (roots[k] - roots[i])
+      new_roots[k] = roots[k] - (func(roots[k])/denominator)
+    roots[:] = new_roots
+  return new_roots
+
+</code></pre><h3 id=results>Results</h3><p>To visualize the results, we plot the polynomial modulus on a graph and the roots found as points highlighted in red. The algorithm in the form proposed here managed to correctly converge the roots of the polynomial. However, some polynomials require better root-initial distribution methods.</p><p align=center><img src=/content/posts/durand/result.png><figcaption align=center>Figure 2 - Polynomial results in complex plane.</figcaption></p><h2 id=conclusion>Conclusion</h2><p>The Durand-kerner method provided a simple solution to solve polynomials and the python implementation was pretty much straight forward. However, to make the algorithm more robust good solutions to distribute to initial roots in the complex plane are required.</p><h2 id=references>References</h2><ul><li>VELIZ, Oscar. Durand-kerner method. Youtube, 2019. Available at: <a href="https://www.youtube.com/watch?v=5JcpOj2KtWc">link</a></li><li>Complex numbers. Wikipedia, 2022. Available at: <a href=https://en.wikipedia.org/wiki/Complex_number>link</a></li></ul></article><div class=my-4><a href=https://luizcarloscf.github.io/en/tags/python/ class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 me-2 hover:text-eureka">#python</a>
+<a href=https://luizcarloscf.github.io/en/tags/algorithm/ class="inline-block bg-tertiary-bg text-sm rounded px-3 py-1 my-1 me-2 hover:text-eureka">#algorithm</a></div><div class=py-2><div class="my-8 flex flex-col items-center md:flex-row"><a href=https://luizcarloscf.github.io/en/authors/luizcarloscf/ class="md:me-4 text-primary-text h-24 w-24"><img src=https://luizcarloscf.github.io/images/avatar.jpeg class="bg-primary-bg w-full rounded-full" alt=Avatar></a><div class="mt-4 w-full md:mt-0 md:w-auto"><a href=https://luizcarloscf.github.io/en/authors/luizcarloscf/ class="mb-2 block border-b pb-1 text-lg font-bold"><h3>Luiz Carlos Cosmi Filho</h3></a><span class="block pb-2">Electrical engineering undergraduate student.</span>
+<a href=mailto:luizcarloscosmifilho@gmail.com class=me-2><i class="fas fa-envelope"></i></a>
+<a href=https://example.com/ class=me-2><i class="fab fa-linkedin"></i></a>
+<a href=https://github.com/luizcarloscf class=me-2><i class="fab fa-github"></i></a></div></div></div></div><div class=col-span-2><div class="bg-primary-bg
+prose sticky top-16 z-10 hidden px-6 py-4 lg:block"><h3>On This Page</h3></div><div class="sticky-toc hidden px-6 pb-6 lg:block"><nav id=TableOfContents><ul><li><a href=#the-algorithm>The algorithm</a></li><li><a href=#python-implementation>Python implementation</a><ul><li><a href=#start-point-selection>Start point selection</a></li><li><a href=#fixed-point-iteration>Fixed point iteration</a></li><li><a href=#results>Results</a></li></ul></li><li><a href=#conclusion>Conclusion</a></li><li><a href=#references>References</a></li></ul></nav></div><script>window.addEventListener("DOMContentLoaded",()=>{enableStickyToc()})</script></div></div><script>document.addEventListener("DOMContentLoaded",()=>{hljs.highlightAll()})</script></div></div></main><footer class=pl-scrollbar><div class="mx-auto w-full max-w-screen-xl"><div class="text-center p-6 pin-b"><p class="text-sm text-tertiary-text">&copy; 2022 <a href=https://luizcarloscf.github.io>Luiz Carlos Cosmi Filho</a>
+&#183; Powered by the <a href=https://github.com/wangchucheng/hugo-eureka class=hover:text-eureka>Eureka</a> theme for <a href=https://gohugo.io class=hover:text-eureka>Hugo</a></p></div></div></footer></body></html>
