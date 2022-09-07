@@ -20,7 +20,7 @@ social:
 
 ## About me
 
-Hy there, I'm an electrical engineering undergraduate student at [UFES](https://www.ufes.br/). In 2018, I joined some research groups at [LabVisio](https://viros.ufes.br/). Some research topics are:
+Hi there, I'm an electrical engineering undergraduate student at [UFES](https://www.ufes.br/). In 2018, I joined some research groups at [LabVisio](https://viros.ufes.br/). Some research topics are:
 
 - Cloud computing
 - Computer vision
