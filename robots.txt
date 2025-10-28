@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://luizcarloscf.github.io/sitemap.xml
