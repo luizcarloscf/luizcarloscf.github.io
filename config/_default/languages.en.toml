@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Luiz Carlos Cosmi Filho"
+logo = "img/luizcarloscf_profile.png"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "luizcarloscf's Portfolio"
+
+[params.author]
+  name = "Luiz Carlos Cosmi Filho"
+  email = "luizcarloscosmifilho@gmail.com"
+  image = "img/luizcarloscf_profile.png"
+  imageQuality = 96
+  headline = "Deep Learning • Computer Vision • MLOps (Python | Docker | Kubernetes)"
+  bio = "Electrical Engineer and AI researcher focused on deep learning and computer vision."
+  links = [
+    { email = "mailto:luizcarloscosmifilho@gmail.com" },
+    { github = "https://github.com/luizcarloscf" },
+    { instagram = "https://instagram.com/luizcarloscf__" },
+    { linkedin = "https://linkedin.com/in/luizcarloscf" },
+    { orcid = "https://orcid.org/0009-0008-3737-2381" },
+    { researchgate = "https://www.researchgate.net/profile/Luiz-Carlos-Cosmi-Filho" },
+  ]

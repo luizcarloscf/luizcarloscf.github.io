@@ -1,0 +1,62 @@
+[
+  {
+    "year": 2025,
+    "authors": "Luiz Carlos Cosmi Filho, Jorge Leonid Aching Samatelo, Raquel Frizera Vassallo",
+    "title": "Hierarchical Vision Transformer Using Shift Windows for Skeleton-based Action Recognition",
+    "venue": "In Proceedings of the IEEE 38th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+    "links": {
+      "pdf": "http://sibgrapi.sid.inpe.br/ibi/8JMKD2USNRW34M/4E8KRCS"
+    }
+  },
+  {
+    "year": 2025,
+    "authors": "Gabriel Donna Altoé, Miquelly Nicolini Lucas, Luiz Carlos Cosmi Filho, Raquel Frizera Vassallo",
+    "title": "Multi-object triangulation and 3D footprint tracking for multi-camera systems",
+    "venue": "In Extended Proceedings of the 38th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+    "links": {
+      "doi": "#",
+      "pdf": "#"
+    }
+  },
+  {
+    "year": 2025,
+    "authors": "Miquelly Nicolini Lucas, Gabriel Donna Altoé, Luiz Carlos Cosmi Filho, Raquel Frizera Vassallo",
+    "title": "Pointing Gesture Recognition from 3D Human Skeleton Data",
+    "venue": "In Extended Proceedings of the 38th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
+    "links": {
+      "pdf": "#",
+      "slides": "#"
+    }
+  },
+  {
+    "year": 2025,
+    "authors": "Mateus Sobrinho Menines, Antônio Sant’Ana de Oliveira, Arthur Bandeira Salvador, Luiz Carlos Cosmi Filho, Raquel Frizera Vassallo",
+    "title": "Voice Commands Authentication for Mobile Robots Navigation in Programmable Intelligent Spaces with Speaker Recognition",
+    "venue": "In Proceedings of the IEEE Brazilian Conference on Robotics (CROS)",
+    "links": {
+      "pdf": "https://ieeexplore.ieee.org/abstract/document/11066097",
+      "doi": "https://doi.org/10.1109/CROS66186.2025.11066097"
+    }
+  },
+  {
+    "year": 2024,
+    "authors": "Luiz Carlos Cosmi Filho, Matheus Dutra de Oliveira, Miquelly Nicollini Lucas, Lucas Fehlberg Follador, Raquel Frizera Vassallo",
+    "title": "An Approach Based on a Programmable Intelligent Space for Human-robot Interaction",
+    "venue": "In Proceedings of the IEEE Latin American Robotics Symposium (LARS)",
+    "links": {
+      "pdf": "https://ieeexplore.ieee.org/abstract/document/10786431",
+      "doi": "https://doi.org/10.1109/LARS64411.2024.10786431"
+    }
+  },
+  {
+    "year": 2021,
+    "authors": "Clebeson Canuto dos Santos, Luiz Carlos Cosmi Filho, Alexandre Pereira, Jorge Leonid Aching Samatelo, Jose Santos-Victor, Raquel Frizera Vassallo",
+    "title": "Reconhecimento online de gestos dinâmicos para ambientes interacionais multicâmeras",
+    "venue": "In Proceedings of the Simpósio Brasileiro de Automação Inteligente (SBAI)",
+    "links": {
+      "pdf": "",
+      "doi": ""
+    } 
+  }
+]
+  
