@@ -3,19 +3,16 @@ name: github pages
 on:
   push:
     branches:
-      # Set a branch to deploy
       - main
   pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          # Fetch Hugo themes (true OR recursive)
           submodules: true
-          # Fetch all history for .GitInfo and .Lastmod
           fetch-depth: 0 
 
       - name: Setup Hugo

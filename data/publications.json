@@ -1,0 +1,33 @@
+[
+  {
+    "year": 2025,
+    "authors": "Mateus Sobrinho Menines, Antônio Sant’Ana de Oliveira, Arthur Bandeira Salvador, Luiz Carlos Cosmi Filho, Raquel Frizera Vassallo",
+    "title": "Voice Commands Authentication for Mobile Robots Navigation in Programmable Intelligent Spaces with Speaker Recognition",
+    "venue": "In Proceedings of the IEEE Brazilian Conference on Robotics (CROS)",
+    "links": {
+      "pdf": "https://ieeexplore.ieee.org/abstract/document/11066097",
+      "doi": "https://doi.org/10.1109/CROS66186.2025.11066097"
+    }
+  },
+  {
+    "year": 2024,
+    "authors": "Luiz Carlos Cosmi Filho, Matheus Dutra de Oliveira, Miquelly Nicollini Lucas, Lucas Fehlberg Follador, Raquel Frizera Vassallo",
+    "title": "An Approach Based on a Programmable Intelligent Space for Human-robot Interaction",
+    "venue": "In Proceedings of the IEEE Latin American Robotics Symposium (LARS)",
+    "links": {
+      "pdf": "https://ieeexplore.ieee.org/abstract/document/10786431",
+      "doi": "https://doi.org/10.1109/LARS64411.2024.10786431"
+    }
+  },
+  {
+    "year": 2021,
+    "authors": "Clebeson Canuto dos Santos, Luiz Carlos Cosmi Filho, Alexandre Pereira, Jorge Leonid Aching Samatelo, Jose Santos-Victor, Raquel Frizera Vassallo",
+    "title": "Reconhecimento online de gestos dinâmicos para ambientes interacionais multicâmeras",
+    "venue": "In Proceedings of the Simpósio Brasileiro de Automação Inteligente (SBAI)",
+    "links": {
+      "pdf": "https://www.sba.org.br/open_journal_systems/index.php/sbai/article/view/2820",
+      "doi": "https://doi.org/10.20906/sbai.v1i1.2820"
+    } 
+  }
+]
+  

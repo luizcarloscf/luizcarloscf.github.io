@@ -1,0 +1,23 @@
+{{ $pubs := sort site.Data.publications "year" "desc" }}
+{{ $years := slice }}
+
+<div class="space-y-8">
+  {{ range $pubs }}
+    {{ $year := .year }}
+    {{ if not (in $years $year) }}
+      {{ $years = $years | append $year }}
+      <h3 class="text-2xl font-semibold mt-1 mb-1">{{ $year }}</h3>
+    {{ end }}
+
+    <div class="border border-gray-200 rounded-lg shadow-sm p-4 mb-2 mt-0">
+      <h4 class="text-l font-semibold text-gray-900 mt-0">{{ .title }}</h4>
+      <p class="text-sm text-gray-600">{{ .authors }}</p>
+      <p class="text-sm text-gray-500 italic">{{ .venue }}</p>
+      <div class="space-x-3">
+        {{ with .links.pdf }}<a href="{{ . }}" class="text-blue-600 hover:underline">[PDF]</a>{{ end }}
+        {{ with .links.doi }}<a href="{{ . }}" class="text-blue-600 hover:underline">[DOI]</a>{{ end }}
+        {{ with .links.code }}<a href="{{ . }}" class="text-blue-600 hover:underline">[Code]</a>{{ end }}
+      </div>
+    </div>
+  {{ end }}
+</div>
