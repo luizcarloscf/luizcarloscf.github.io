@@ -26,33 +26,33 @@ description: "Recent and some older news"
 
 * **2021**
     
-    * 🧩 **Conference Paper Published!**  
-      Check out [*Reconhecimento online de gestos dinâmicos para ambientes interacionais multicâmeras*](https://sba.org.br/open_journal_systems/index.php/sbai/article/view/2820), where we proposed **LSTM-based models** for **online gesture spotting and classification** in multi-camera environments — an important step toward robust real-time gesture recognition systems.
+    * **Jan 20**: 🧩 **New Conference Paper!**  
+      Check out [*Reconhecimento online de gestos dinâmicos para ambientes interacionais multicâmeras*](https://sba.org.br/open_journal_systems/index.php/sbai/article/view/2820), where we proposed **LSTM-based models** for **online gesture spotting and classification** in multi-camera environments, an important step toward robust real-time gesture recognition systems.
 
 * **2019**
     
     * **Apr 01**: 🚀 **Joined LabVISIO**  
-      Became a member of [**LabVISIO**](https://visio.ufes.br/), the Computer Vision and Robotics Systems Research Laboratory at UFES.   Since then, I have been actively involved in research projects on **computer vision**, **machine learning**, and **robotic perception**, contributing to both academic publications and practical AI-driven systems.
+      Became a member of [**LabVISIO**](https://visio.ufes.br/), the Computer Vision and Robotics Systems Research Laboratory at UFES.  Since then, I have been actively involved in research projects on **computer vision**, **machine learning**, **deep learning**, **cloud computing** and **robotic perception**, contributing to both academic publications and practical AI-driven systems.
 
 * **2018**
 
     * **Feb 20**: 🎓 **Started my Bachelor’s Degree**  
-      Began studying **Electrical Engineering** at the [Federal University of Espírito Santo (UFES)](https://www.ufes.br/), specializing in **automation, control systems**, and **computing**. During this period, I developed a strong interest in **artificial intelligence**, **data processing**, and **embedded systems**, which later shaped my research path.
+      Began studying **Electrical Engineering** at the [Federal University of Espírito Santo (UFES)](https://www.ufes.br/). During this period, I developed a strong interest in **artificial intelligence**, **data processing**, and **cloud computing**.
 
 * **2017**
 
     * **Dec 20**: 🎓 **High School Graduation**  
-      Graduated from the [Federal Institute of Espírito Santo (IFES)](https://www.ifes.edu.br/), completing an integrated technical program in **Industrial Automation**. This experience built my foundation in **electronics, sensors**, and **control systems**, which later inspired my work in robotics and intelligent environments.
+      Graduated from the [Federal Institute of Espírito Santo (IFES)](https://www.ifes.edu.br/), completing an integrated technical program in **Industrial Automation**. This experience built my foundation in **electronics, sensors**, and **embedded systems**.
 
-    * **Dec 01**: 🥇 **Gold Medal — Brazilian Robotics Olympiad (OBR)**
-      Awarded a **Gold Medal** in the **National Stage** of the Brazilian Robotics Olympiad (Practical Modality).   This achievement marked an important milestone in my early interest in **robotics and automation**.
+    * **Dec 01**: 🥇 **Gold Medal — Brazilian Robotics Olympiad (OBR)***  
+      Awarded a **Gold Medal** in the **National Stage** of the Brazilian Robotics Olympiad (Practical Modality).
 
 * **2016**
 
-    * **Dec 01**: 🥉 **Bronze Medal — Brazilian Robotics Olympiad (OBR)**
-      Earned a **Bronze Medal** in the **Theoretical Modality** of the national OBR competition, demonstrating excellence in **robotics theory and problem-solving**.
+    * **Dec 01**: 🥉 **Bronze Medal — Brazilian Robotics Olympiad (OBR)**  
+      Earned a **Bronze Medal** in the **Theoretical Modality** of the national OBR competition.
 
 * **2014**
 
-    * **May 06**: 🏫 **Began High School and Technical Program**
-      Started my studies at the [Federal Institute of Espírito Santo (IFES)](https://www.ifes.edu.br/), enrolled in an integrated program combining **high school** and **technical education in Industrial Automation**. This was the first step in my long-standing journey toward **engineering, robotics**, and **artificial intelligence**.
+    * **May 06**: 🏫 **Began High School and Technical Program**  
+      Started my studies at the [Federal Institute of Espírito Santo (IFES)](https://www.ifes.edu.br/), enrolled in an integrated program combining **high school** and **technical education in Industrial Automation**. This was the first step in my long-standing journey toward **engineering** and **robotics**.
