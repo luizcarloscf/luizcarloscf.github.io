@@ -3,7 +3,9 @@ title: "About me"
 description: ""
 ---
 
-I am Master candidate in Electrical Engineering at the [Federal University of Espírito Santo (UFES](https://www.ufes.br/), Brazil. My research focuses on computer vision, deep learning, and human action/gesture recognition. I am also interested in robotics, cloud computing, data structures, and algorithms. I mainly code in Python, while also exploring Golang and C++. Currently, I collaborate on research projects at [LabVISIO](https://visio.ufes.br/), Computer Vision and Robotics Systems Research Laboratory, where I develop AI-driven systems for visual perception and intelligent environments.
+I am a **Master’s candidate in Electrical Engineering** at the [Federal University of Espírito Santo (UFES)](https://www.ufes.br/), Brazil. My research focuses on **computer vision**,**deep learning**, and **human action and gesture recognition**. I am also interested in **robotics**, **cloud computing**, **data structures**, and **algorithms**.  
+
+I primarily code in **Python**, while also exploring **Golang** and **C++**. Currently, I collaborate on research projects at [**LabVISIO**](https://visio.ufes.br/), the **Computer Vision and Robotics Systems Research Laboratory**, where I develop AI-driven systems for visual perception and intelligent environments.
 
 ## Skills
 
@@ -13,8 +15,8 @@ I am Master candidate in Electrical Engineering at the [Federal University of Es
 * **DevOps**: Git, GitHub, GitLab, Ansible, Docker, Podman, Kubernetes, Grafana, Prometheus, OpenTelemetry
 * **Tools**: LaTex, Microsoft Word/Excel/PowerPoint
 * **Embedded systems**: Arduino, Raspberry PI (3, 4)
-* **Operations systems**: Windows, Linux
-* **Project Managment**: Kanbam, Scrum, Jira, Confluence
+* **Operations systems**: Windows, Linux (Ubuntu)
+* **Project Management**: Kanbam, Scrum, Jira, Confluence
 
 ## Certifications
 
