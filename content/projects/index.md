@@ -7,7 +7,7 @@ description: "Personal and professional open-sourced projects"
 
 {{< github repo="luizcarloscf/luizcarloscf.github.io" >}}
 
-Personal blog and port build with Hugo, static site generator written in Go, optimized for speed and designed for flexibility. 
+A personal blog and portfolio developed to showcase my research projects, publications, and technical writing. The website is built with Hugo, a fast and flexible static site generator written in Go. The project is version-controlled with Git and hosted on GitHub Pages, with GitHub Actions automating the deployment workflow. The site is designed with a focus on minimalism, readability, and accessibility. In addition to serving as a portfolio, it also functions as a space for sharing insights on machine learning, computer vision, research tools, and open-source development.
 
 * **Tools**: Hugo, Git, GitHub, GitHub Actions, GitHub Pages
 
