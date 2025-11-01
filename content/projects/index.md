@@ -13,6 +13,24 @@ A personal site built to showcase research projects, publications, and technical
 * **Source code**: [github.com/luizcarloscf/luizcarloscf.github.io](https://github.com/luizcarloscf/luizcarloscf.github.io)
 * **Tools**: Hugo, Git, GitHub, GitHub Actions, GitHub Pages
 
+## Computational Intelligence Applied to Healthcare
+
+Projects developed during the “Computational Intelligence Applied to Healthcare” course in my master's program.
+
+### Tabular dataset
+
+In the first project, we worked with a tabular health-indicator dataset to classify individuals with diabetes, the [CDC Diabetes Health Indicators](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators) dataset. We evaluated Random Forest, Support Vector Machines, Logistic Regression, and Extreme Gradient Boosting. Additionally, due to the class imbalance problem (diabetic vs. non-diabetic individuals), we explored a strategy to develop a machine learning model capable of handling this issue effectively.
+
+* **Source code**: [intel-comp-saude-ufes/2024-1-P1-classificador-diabetes](https://github.com/intel-comp-saude-ufes/2024-1-P1-classificador-diabetes/)
+* **Tools**: Python, Matplotlib, Scikit-learn, Numpy, Pandas, Seaborn, Jupyter Notebook, Git, GitHub
+
+### Image dataset
+
+In the second project, we explored convolutional neural networks (CNNs), including ResNet and VGG19, using the [LC25000](https://arxiv.org/abs/1912.12142v1) histopathological lung cancer image dataset. We applied transfer learning techniques and evaluated models results through cross-validation.
+
+* **Source code**: [intel-comp-saude-ufes/2024-1-P2-classificador-cancer-de-pulmao](https://github.com/intel-comp-saude-ufes/2024-1-P2-classificador-cancer-de-pulmao/)
+* **Tools**: Python, Pytorch, Matplotlib, Numpy, Pandas, Seaborn, Jupyter Notebook, Git, GitHub
+
 ## Intelligent Space Platform
 
 Contributed to the development of an Intelligent Space Platform, a distributed system for real-time perception and human-machine interaction. Participated in both software development and DevOps tasks, including CI/CD pipelines, containerization, and deployment on Kubernetes. In addition, I helped in the maintenance and operation of the Kubernetes cluster that powered the platform’s real-time distributed processing pipeline, contributed to configuring GPU-enabled nodes for running computer vision workloads and AI models, including driver setup, GPU runtime configuration, and resource provisioning.
