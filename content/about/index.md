@@ -1,6 +1,8 @@
 ---
 title: "About me"
-description: ""
+description: "About me"
+date: 2025-10-31
+draft: false
 ---
 
 I am a **Master’s candidate in Electrical Engineering** at the [Federal University of Espírito Santo (UFES)](https://www.ufes.br/), Brazil. My research focuses on **computer vision**,**deep learning**, and **human action and gesture recognition**. I am also interested in **robotics**, **cloud computing**, **data structures**, and **algorithms**.  

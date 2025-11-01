@@ -1,6 +1,6 @@
 ---
 title: "Welcome to luizcarloscf's portfolio! :tada:"
-description: "This "
+description: "homepage"
 ---
 
 Welcome to my homepage/portfolio 👋

@@ -1,6 +1,8 @@
 ---
 title: "Projects"
 description: "Personal and professional open-sourced projects"
+date: 2025-10-31
+draft: false
 ---
 
 ## Personal blog and portfolio

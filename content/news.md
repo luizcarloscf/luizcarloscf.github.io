@@ -1,6 +1,8 @@
 ---
 title: "News"
 description: "Recent and some older news"
+date: 2025-10-31
+draft: false
 ---
 
 * **2025**
