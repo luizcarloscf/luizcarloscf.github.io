@@ -5,19 +5,43 @@ description: "Personal and professional open-sourced projects"
 
 ## Personal blog and portfolio
 
-{{< github repo="luizcarloscf/luizcarloscf.github.io" >}}
+A personal site built to showcase research projects, publications, and technical writing. Developed with Hugo and deployed on GitHub Pages with GitHub Actions automating the CI/CD pipeline. Designed with a clean, minimalist, and accessible layout, it also functions as a platform for sharing insights on machine learning, computer vision, open-source tools, and research workflows.
 
-A personal blog and portfolio developed to showcase my research projects, publications, and technical writing. The website is built with Hugo, a fast and flexible static site generator written in Go. The project is version-controlled with Git and hosted on GitHub Pages, with GitHub Actions automating the deployment workflow. The site is designed with a focus on minimalism, readability, and accessibility. In addition to serving as a portfolio, it also functions as a space for sharing insights on machine learning, computer vision, research tools, and open-source development.
-
+* **Site**: [luizcarloscf.github.io](https://luizcarloscf.github.io/)
+* **Source code**: [github.com/luizcarloscf/luizcarloscf.github.io](https://github.com/luizcarloscf/luizcarloscf.github.io)
 * **Tools**: Hugo, Git, GitHub, GitHub Actions, GitHub Pages
 
+## Intelligent Space Platform
 
-## Face Detector Microservice
+Contributed to the development of an Intelligent Space Platform, a distributed system for real-time perception and human-machine interaction. Participated in both software development and DevOps tasks, including CI/CD pipelines, containerization, and deployment on Kubernetes. In addition, I helped in the maintenance and operation of the Kubernetes cluster that powered the platform’s real-time distributed processing pipeline, contributed to configuring GPU-enabled nodes for running computer vision workloads and AI models, including driver setup, GPU runtime configuration, and resource provisioning.
 
-{{< github repo="labvisio/is-face-detector" >}}
+### Python packages
 
-A microservice integrated into the Intelligent Space Platform for face detection in images. It was developed in Python, containerized with Docker, and deployed on a Kubernetes cluster. To ensure standardized and efficient communication between services, the system employs Protocol Buffers (Protobuf) as the data serialization format. The microservice interacts with the Intelligent Space through a RabbitMQ message broker: it creates a dedicated queue, establishes a binding with the exchange where images are published, and then sends the detection results back to the same exchange. This design enables scalable and asynchronous message handling across distributed components of the platform. 
+* [labvisio/is-msgs](https://pypi.org/project/is-msgs/): python package standardizing communication across microservices using Protocol Buffers.
+* [labvisio/is-wire-py](https://pypi.org/project/is-wire/): python package for inter-service messaging based on RabbitMQ + Protobuf.
 
-* **Tools**: Python, Shell Script, YAML, RabbitMQ, Protocol Buffers, Docker, Kubernetes, Git, GitHub
+Contributed to CI/CD automation and repositories structures, structured the CI pipeline to support multiple Python versions, automated package building and publishing to PyPI, organized repository standards (issue and PR templates), and implemented unit testing, linting, and packaging workflows.
 
+* **Source code**: [labvisio/is-msgs](https://github.com/labvisio/is-msgs), [labvisio/is-wire-py](https://github.com/labvisio/is-wire-py)
+* **Tools**: Python, Setuptools, Flake8, PyPI, C++, CMakeLists, Setuptools, RabbitMQ, Protocol Buffers, Json, Git, Github, Github Actions
 
+### RabbitMQ Broker Events
+
+Microservice that monitors RabbitMQ internal events (queue creation, binding changes, consumer activity) and updates a live mapping of topics and subscribers in real time. I organized the project structure and documentation, created usage examples, implemented new features, and updated deployment resources including Docker and Kubernetes manifests.
+
+* **Source code**: [labvisio/is-broker-events](https://github.com/labvisio/is-broker-events)
+* **Tools**: Python, Setuptools, YAML, Json, RabbitMQ, Protocol Buffers, Docker, Kubernetes, Git, GitHub
+
+### Face Detector
+
+Microservice for face detection using CNN-based models via OpenCV. I designed and implemented the service, integrated it with the platform's message broker, and ensured asynchronous processing of image streams and publishing of detection results.
+
+* **Source code**: [labvisio/is-face-detector](https://github.com/labvisio/is-face-detector)
+* **Tools**: Python, OpenCV, Shell Script, YAML, Json, RabbitMQ, Protocol Buffers, Docker, Kubernetes, Git, GitHub
+
+### Camera Driver Gateway
+
+Microservice responsible for interfacing with FLIR/Spinnaker industrial cameras, capturing images in real time and publishing them to the system. Developed the gateway using the Spinnaker SDK and integrated it into the distributed architecture.
+
+* **Source code**: [labvisio/is-spinnaker-gateway](https://github.com/labvisio/is-spinnaker-gateway)
+* **Tools**: Python, Setuptools, SpinnakerSDK, OpenCV, Shell Script, YAML, Json, RabbitMQ, Protocol Buffers, Docker, Kubernetes, Git, GitHub
