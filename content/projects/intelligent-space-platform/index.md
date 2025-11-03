@@ -1,35 +1,12 @@
 ---
-title: "Projects"
-description: "Personal and professional open-sourced projects"
+title: "Intelligence Space Platform"
+description: "Projects developed to Intelligent Space Platform."
 date: 2025-10-31
 draft: false
+tags: ["python", "rabbitmq", "protobuf", "machine-learning", "ci/cd", "docker", "kubernetes"]
+type: 'sample'
+showTableOfContents: false
 ---
-
-## Personal blog and portfolio
-
-A personal site built to showcase research projects, publications, and technical writing. Developed with Hugo and deployed on GitHub Pages with GitHub Actions automating the CI/CD pipeline. Designed with a clean, minimalist, and accessible layout, it also functions as a platform for sharing insights on machine learning, computer vision, open-source tools, and research workflows.
-
-* **Site**: [luizcarloscf.github.io](https://luizcarloscf.github.io/)
-* **Source code**: [github.com/luizcarloscf/luizcarloscf.github.io](https://github.com/luizcarloscf/luizcarloscf.github.io)
-* **Tools**: Hugo, Git, GitHub, GitHub Actions, GitHub Pages
-
-## Computational Intelligence Applied to Healthcare
-
-Projects developed during the “Computational Intelligence Applied to Healthcare” course in my master's program.
-
-### Tabular dataset
-
-In the first project, we worked with a tabular health-indicator dataset to classify individuals with diabetes, the [CDC Diabetes Health Indicators](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators) dataset. We evaluated Random Forest, Support Vector Machines, Logistic Regression, and Extreme Gradient Boosting. Additionally, due to the class imbalance problem (diabetic vs. non-diabetic individuals), we explored a strategy to develop a machine learning model capable of handling this issue effectively.
-
-* **Source code**: [intel-comp-saude-ufes/2024-1-P1-classificador-diabetes](https://github.com/intel-comp-saude-ufes/2024-1-P1-classificador-diabetes/)
-* **Tools**: Python, Matplotlib, Scikit-learn, Numpy, Pandas, Seaborn, Jupyter Notebook, Git, GitHub
-
-### Image dataset
-
-In the second project, we explored convolutional neural networks (CNNs), including ResNet and VGG19, using the [LC25000](https://arxiv.org/abs/1912.12142v1) histopathological lung cancer image dataset. We applied transfer learning techniques and evaluated models results through cross-validation.
-
-* **Source code**: [intel-comp-saude-ufes/2024-1-P2-classificador-cancer-de-pulmao](https://github.com/intel-comp-saude-ufes/2024-1-P2-classificador-cancer-de-pulmao/)
-* **Tools**: Python, Pytorch, Matplotlib, Numpy, Pandas, Seaborn, Jupyter Notebook, Git, GitHub
 
 ## Intelligent Space Platform
 
