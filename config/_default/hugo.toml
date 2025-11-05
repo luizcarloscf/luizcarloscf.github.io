@@ -7,9 +7,6 @@ baseURL = "https://luizcarloscf.github.io"
 contentDir = "content"
 defaultContentLanguage = "en"
 
-
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
-
 enableRobotsTXT = true
 summaryLength = 0
 
@@ -18,7 +15,7 @@ buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
+googleAnalytics = "G-DDJMQMQ3Y5"
 
 [pagination]
   pagerSize = 100
