@@ -3,7 +3,7 @@ title: "Computational Intelligence Applied to Healthcare"
 description: "Projects developed during the “Computational Intelligence Applied to Healthcare” course in my master's program."
 date: 2025-10-31
 draft: false
-tags: ["python", "machine-learning", "scikit-learn", "pytorch", "medical-imaging", "healthcare"]
+tags: ["python", "machine-learning", "deep-learning", "scikit-learn", "pytorch", "medical-imaging", "healthcare"]
 type: 'sample'
 showTableOfContents: false
 ---

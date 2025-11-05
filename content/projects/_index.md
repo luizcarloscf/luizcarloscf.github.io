@@ -5,7 +5,7 @@ description: "Personal and profissional projects."
 cascade:
   showEdit: true
   showSummary: true
-  hideFeatureImage: true
+  hideFeatureImage: false
   invertPagination: true
 ---
 
