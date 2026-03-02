@@ -6,15 +6,15 @@ draft: false
 showTableOfContents: false
 ---
 
-My current research interests span the fields of Machine Learning/Artificial Intelligence, Computer Vision, Pose Estimation, Action/Gesture Recognition. A list of topics is presented in the following:
+As a researcher, my work focuses on Machine Learning, Artificial Intelligence, and Computer Vision, with a particular focus on pose estimation, gesture/action recognition, and deep learning. I am especially interested in studying neural network architectures applied to both image and skeleton-based data.
 
-* Gesture/Action recogntion
-* Pose estimation
-* Machine learning
-* Deep Learning
-* Data Science
-* Robotics
-* Cloud Computing
+## Research interests
+
+* **Gesture/Action recogntion**: developing algorithms for interpreting human movements.
+* **Pose estimation**: developing algorithms for detecting and analyzing human poses using computer vision techniques.
+* **Machine learning/Deep learning**: Designing and implementing models for complex tasks.
+* **Robotics**: Integrating intelligent systems for autonomous operation of robotics system.
+* **Cloud Computing**: Utilizing scalable infrastructure for data processing and model deployment.
 
 ## Publications 
 
