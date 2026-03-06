@@ -6,11 +6,11 @@ draft: false
 showTableOfContents: false
 ---
 
-As a researcher, my work focuses on Machine Learning, Artificial Intelligence, and Computer Vision, with a particular focus on pose estimation, gesture/action recognition, and deep learning. I am especially interested in studying neural network architectures applied to both image and skeleton-based data.
+I am currently a Master’s candidate in Electrical Engineering at the [Federal University of Espírito Santo (UFES)](https://www.ufes.br/), Brazil. My research focuses on gesture recognition for human–robot interaction, leveraging computer vision, deep learning, and artificial intelligence. I develop and use state-of-the-art models to process images, videos, and time series data. Additionally, I am actively involved in research projects at [LabVISIO](https://visio.ufes.br), the Computer Vision and Robotic Systems Research Laboratory, where I contribute to the development of systems for visual perception and intelligent environments.
 
 ## Research interests
 
-* **Gesture/Action recogntion**: developing algorithms for interpreting human movements.
+* **Gesture/Action recognition**: developing algorithms for interpreting human movements.
 * **Pose estimation**: developing algorithms for detecting and analyzing human poses using computer vision techniques.
 * **Machine learning/Deep learning**: Designing and implementing models for complex tasks.
 * **Robotics**: Integrating intelligent systems for autonomous operation of robotics system.
