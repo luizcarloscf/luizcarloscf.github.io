@@ -19,7 +19,7 @@ draft: false
       Check out [*Pointing Gesture Recognition from 3D Human Skeleton Data*](https://sol.sbc.org.br/index.php/sibgrapi_estendido/article/view/38311), where we develop an approach for recognizing pointing gestures by analyzing 3D skeleton data.
 
     * **Jul 09**: 🎉 **New Conference Paper!**  
-      Check out [*Voice Commands Authentication for Mobile Robots Navigation in Programmable Intelligent Spaces with Speaker Recognition*](https://ieeexplore.ieee.org/abstract/document/11066097), where we proposed a hierarchical control system for mobile robot navigation based on voice commands. The system integrates ECAPA-TDNN models for speaker identification and reidentification, enabling secure and personalized human–robot interaction within intelligent spaces.
+      Check out [*Voice Commands Authentication for Mobile Robots Navigation in Programmable Intelligent Spaces with Speaker Recognition*](https://ieeexplore.ieee.org/abstract/document/11066097), where we proposed a hierarchical control system for mobile robot navigation based on voice commands.
 
 * **2024**
     
