@@ -5,14 +5,13 @@ date: 2025-10-31
 draft: false
 ---
 
-I am a **Master’s candidate in Electrical Engineering** at the [Federal University of Espírito Santo (UFES)](https://www.ufes.br/), Brazil. My research focuses on **computer vision**,**deep learning**, and **human action and gesture recognition**. I am also interested in **robotics**, **cloud computing**, **data structures**, and **algorithms**.  
+I have a Bachelor’s degree in Electrical Engineering with an emphasis on computing, control, and automation, and I am currently pursuing a Master’s degree. I have experience in Python development, application containerization, and Linux system administration, container orchestration, CI/CD pipeline development, data science, and artificial intelligence/machine learning.
 
-I primarily code in **Python**, while also exploring **Golang** and **C++**. Currently, I collaborate on research projects at [**LabVISIO**](https://visio.ufes.br/), the **Computer Vision and Robotics Systems Research Laboratory**, where I develop AI-driven systems for visual perception and intelligent environments.
 
 ## Skills
 
 * **Programming Languages**: Python, Golang, Shell Script, C++, C, SQL
-* **Python libraries/frameworks**: Numpy, Pandas, Matplotlib, Scikit-learn, OpenCV, PyTorch, Tensorflow, Keras, FastAPI, Flask, SQLAlchemy, Pydantic, OpenTelemetry, Prometheus, Protocol Buffers, PyTest, Setuptools, Poetry, Pyka
+* **Python libraries/frameworks**: Numpy, Pandas, Matplotlib, Scikit-learn, OpenCV, PyTorch, Tensorflow, Keras, FastAPI, Flask, SQLAlchemy, Pydantic, OpenTelemetry, Prometheus, Protocol Buffers, PyTest, Setuptools, Poetry, Pyka, ROS 2
 * **Backend Database/System**: RabbitMQ, PostgreSQL
 * **DevOps**: Git, GitHub, GitLab, Ansible, Docker, Podman, Kubernetes, Grafana, Prometheus, OpenTelemetry
 * **Tools**: LaTex, Microsoft Word/Excel/PowerPoint
@@ -22,11 +21,19 @@ I primarily code in **Python**, while also exploring **Golang** and **C++**. Cur
 
 ## Certifications
 
-<img class="customEntitityAlbum" style="background-color:transparent" src="ckad_badge.png" width=100px height=100px/>
+<div style="display: flex; gap: 16px; align-items: center;">
+    <a href="https://www.credly.com/badges/57426cfb-3a02-4964-9b41-7414e30aeff0/public_url" target="_blank">
+        <img src="ckad_badge.png" width="100px" height="100px"/>
+    </a>
+    <a href="https://www.credly.com/badges/10655e88-52d1-4aae-8cdc-8f1b9fa5cc93/public_url" target="_blank">
+        <img src="cka_badge.png" width="105px" height="105px"/>
+    </a>
+</div>
 
 ## Courses
 
 * **2025**
+    * **Nov**: AWS Educate Machine Learning Foundations - AWS - [Certificate](https://www.credly.com/badges/0d6cc1ac-63f5-4ec4-ae8f-c02afad9d50d/public_url)
     * **Sep**: PostgreSQL Summary Stats and Windows Functions - DataCamp - [Certificate](https://www.datacamp.com/completed/statement-of-accomplishment/course/d41a619a664974c670e9a22eee042e738ee43ee0)
     * **Aug**: Data Manipulation in SQL - DataCamp - [Certificate](https://www.datacamp.com/completed/statement-of-accomplishment/course/9c9cf63973ce90a2ab025eb991187a156433722b)
     * **Aug**: Joining Data in SQL - DataCamp - [Certificate](https://www.datacamp.com/completed/statement-of-accomplishment/course/64d2b1c61f0b6be60c01fb3698cb3e73ae704fd0)

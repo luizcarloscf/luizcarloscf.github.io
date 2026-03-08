@@ -1,11 +1,22 @@
 [
   {
     "year": 2025,
+    "authors": "Antonio Marcos Mutz Entringer, Luiz Carlos Cosmi Filho, Raquel Frizera Vassallo, Vinícius F. S. Mota, Magnos Martinello, José-Marcos S. Nogueira",
+    "title": "Outdoor Drone Navigation: Evaluating Communication Limits of an Offboard Controller",
+    "venue": "In Proceedings of the 2025 IEEE International Conference on Advanced Robotics (ICAR)",
+    "links": {
+      "pdf": "https://ieeexplore.ieee.org/document/11338750",
+      "doi": "https://doi.org/10.1109/ICAR65334.2025.11338750"
+    }
+  },
+  {
+    "year": 2025,
     "authors": "Luiz Carlos Cosmi Filho, Jorge Leonid Aching Samatelo, Raquel Frizera Vassallo",
     "title": "Hierarchical Vision Transformer Using Shift Windows for Skeleton-based Action Recognition",
     "venue": "In Proceedings of the IEEE 38th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
     "links": {
-      "pdf": "http://sibgrapi.sid.inpe.br/ibi/8JMKD2USNRW34M/4E8KRCS"
+      "pdf": "https://ieeexplore.ieee.org/document/11223379",
+      "doi": "https://doi.org/10.1109/SIBGRAPI67909.2025.11223379"
     }
   },
   {
@@ -13,14 +24,20 @@
     "authors": "Gabriel Donna Altoé, Miquelly Nicolini Lucas, Luiz Carlos Cosmi Filho, Raquel Frizera Vassallo",
     "title": "Multi-object triangulation and 3D footprint tracking for multi-camera systems",
     "venue": "In Extended Proceedings of the 38th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
-    "links": {}
+    "links": {
+      "pdf": "https://sol.sbc.org.br/index.php/sibgrapi_estendido/article/view/38305",
+      "doi": "https://doi.org/10.5753/sibgrapi.est.2025.38305"
+    }
   },
   {
     "year": 2025,
     "authors": "Miquelly Nicolini Lucas, Gabriel Donna Altoé, Luiz Carlos Cosmi Filho, Raquel Frizera Vassallo",
     "title": "Pointing Gesture Recognition from 3D Human Skeleton Data",
     "venue": "In Extended Proceedings of the 38th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
-    "links": {}
+    "links": {
+      "pdf": "https://sol.sbc.org.br/index.php/sibgrapi_estendido/article/view/38311",
+      "doi": "https://doi.org/10.5753/sibgrapi.est.2025.38311"
+    }
   },
   {
     "year": 2025,
